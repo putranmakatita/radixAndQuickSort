@@ -4,7 +4,7 @@ function quickSort(nums) {
         return nums;
     }
 
-    // Memilih elemen pivot, ambil saja yang elemen pertamanya
+    // Memilih elemen pivot, ambil saja elemen terakhirnya
     const pivot = nums[nums.length - 1];
 
     // Bagi array menjadi kiri(lebih kecil dari pivot) dan kanan(lebih besar dari pivot)
