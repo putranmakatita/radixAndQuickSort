@@ -1,4 +1,3 @@
-// Fungsi utama Quick Sort
 function quickSort(nums) {
     // jika length-nya hanya satu atau kurang, return kembali saja arraynya
     if (nums.length <= 1) {
