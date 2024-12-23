@@ -47,7 +47,11 @@ function radixSort(arr) {
 }
 
 
-const arr = [170, 45, 75, 90, 802, 24, 2, 66];
+//  Test cases
+let arr = [ 10, 7, 8, 9, 1, 5 ];
+let result = radixSort(arr);
+console.log(result);
 
-const sortedArr = radixSort(arr);
-console.log(sortedArr);
+arr = [170, 45, 75, 90, 802, 24, 2, 66];
+result = radixSort(arr);
+console.log(result);
